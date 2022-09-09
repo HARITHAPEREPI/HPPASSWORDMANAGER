@@ -1,0 +1,244 @@
+.app-container  {
+  background-color: #9ba9eb;
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-logo  {
+  width: 50px;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-left;
+  margin: 20px;
+}
+
+.first-container  {
+  background-color: #5763a5;
+  border: none;
+  border-radius: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.add-password-container  {
+  background-color: #454f84;
+  border: none;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.add-password-heading  {
+  color: #f8fafc;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin: 10px;
+  text-align: left;
+}
+
+.password-manager-container  {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.website-input-container  {
+  display: flex;
+  flex-direction: row;
+  background-color: #f8fafc;
+}
+
+.website-logo  {
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+}
+
+.website-input  {
+  color: #7683cb;
+  font-size: 10px;
+  font-family: 'Roboto';
+  margin: 10px;
+}
+
+.username-input-container  {
+  display: flex;
+  flex-direction: row;
+  background-color: #f8fafc;
+}
+
+.username-logo  {
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+}
+
+.username-input  {
+  color: #7683cb;
+  font-size: 10px;
+  font-family: 'Roboto';
+  margin: 10px;
+}
+
+.password-input-container  {
+  display: flex;
+  flex-direction: row;
+  background-color: #f8fafc;
+}
+
+.password-logo  {
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+}
+
+.password-input  {
+  color: #7683cb;
+  font-size: 10px;
+  font-family: 'Roboto';
+  margin: 10px;
+}
+
+.add-button  {
+  background-color: #7683cb;
+  color: #ffffff;
+  font-size: 15px;
+  font-family: 'Roboto';
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-left;
+}
+
+.password-manager-image  {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.your-password-container  {
+  background-color: #5763a5;
+  border: none;
+  border-radius: 20px;
+}
+
+.count-search-container  {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.your-password  {
+  color: #f8fafc;
+  font-size: 20px;
+  font-family: 'Roboto';
+  margin: 10px;
+}
+
+.password-items-count  {
+  color: #f8fafc;
+  border: 1px solid #f8fafc;
+  border-radius: 10px;
+}
+
+.search-container  {
+  display: flex;
+  flex-direction: row;
+  background-color: #f8fafc;
+}
+
+.search-logo  {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+}
+
+.search-input  {
+  color: #c3caea;
+  font-size: 8px;
+  font-family: 'Roboto';
+}
+
+.hr-line  {
+  color: #f8fafc;
+  width: 100vw;
+}
+
+.show-password-check-box  {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-right;
+  margin: 20px;
+}
+
+.show-password  {
+  color: #f8fafc;
+  font-size: 15px;
+  font-family: 'Roboto';
+  margin: 10px;
+}
+
+.password-items-list  {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.no-password  {
+  color: #f8fafc;
+  font-size: 20px;
+  font-family: 'Roboto';
+  margin: 20px;
+}
+
+.no-password-img  {
+  width: 300px;
+  height: 200px;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty-state  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.password-item-container  {
+  border: 1px solid #c3caea;
+  border-radius: 20px;
+  display: flx;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.password-item-list  {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
